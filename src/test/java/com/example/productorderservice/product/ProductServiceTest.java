@@ -60,10 +60,6 @@ class ProductServiceTest {
 
     }
 
-    private enum DiscountPolicy {
-        NONE
-    }
-
     private class Product {
         private Long id;
         private final String name;
